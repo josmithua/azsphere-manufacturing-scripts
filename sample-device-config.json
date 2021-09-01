@@ -1,0 +1,23 @@
+{
+  "expectedOsVersion": "21.08",
+  "expectedManufacturingState": "Module1Complete",
+  "desiredManufacturingState": "DeviceComplete",
+  "deviceGroup": "Product/DeviceGroupName",
+  "images": [
+    {
+      "componentId": "1f9a65f3-4c1b-4cb4-86be-ca1c4a5897f2",
+      "path": "C:/Users/joshua/Documents/azsphere/scripts/images/prod/RTApp-Uart-v1_7_0.imagepackage",
+      "imageId": "b270adba-4bd0-49f4-a37a-de367acf0c42"
+    },
+    {
+      "componentId": "0e10eb00-214c-41ef-bb0f-74f5ce7a6821",
+      "path": "C:/Users/joshua/Documents/azsphere/scripts/images/prod/RTApp-Disp-v1_7_0.imagepackage",
+      "imageId": "26c94b4e-93fd-4491-b04b-c74e0be8c267"
+    },
+    {
+      "componentId": "be05929c-80c0-4c5e-bf0b-7872513e4841",
+      "path": "C:/Users/joshua/Documents/azsphere/scripts/images/prod/HLApp-v1_7_0.imagepackage",
+      "imageId": "cf9d347a-9e8a-414b-9d64-7fc241cc9f94"
+    }
+  ]
+}
