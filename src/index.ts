@@ -13,7 +13,7 @@ export async function cli() {
 
   if (cmd === 'help' || args.help === true) {
     console.log(`
-    Dideload production images to the attached device and configure it for OTA updates:
+    Sideload production images to the attached device and configure it for OTA updates:
       azsphere-manufacturing-scripts prepare --device-config <path/to/device-config.json>
 
     Complete the attached device after a successful check for device readiness:
