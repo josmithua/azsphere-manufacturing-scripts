@@ -6,6 +6,7 @@ import {
   getDeviceWifiListCount,
   getInstalledImages,
   getManufacturingState,
+  setManufacturingState,
 } from './azsphere';
 import type { DeviceConfig } from './deviceConfig';
 
@@ -93,7 +94,7 @@ export const deviceCompleterMachine = createMachine<Context>(
         send(reason != null ? { type: 'DEVICE_NOT_READY', reason } : 'DEVICE_READY');
       },
       completeDevice: async (ctx) => {
-        //await setManufacturingState(ctx.deviceConfig.desiredManufacturingState)
+        await setManufacturingState(ctx.deviceConfig.desiredManufacturingState)
       },
     },
   }

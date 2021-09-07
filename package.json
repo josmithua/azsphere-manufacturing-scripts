@@ -2,9 +2,13 @@
   "name": "azsphere-manufacturing-scripts",
   "license": "MIT",
   "version": "0.1.0",
-  "description": "",
+  "description": "Node scripts for preparing Azure Sphere devices during the manufacturing process",
   "main": "build/index.js",
   "bin": "./bin/azsphere-manufacturing-scripts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josmithua/azsphere-manufacturing-scripts.git"
+  },
   "scripts": {
     "prepare": "tsc",
     "dev": "npm run prepare && azsphere-manufacturing-scripts"
